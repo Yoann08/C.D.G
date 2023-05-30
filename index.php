@@ -77,7 +77,7 @@
     }
   </style>
 
-    <title>Code De Geek</title>
+    <title>Codes De Geek</title>
 </head>
 
 <body>
