@@ -1,36 +1,38 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../CDG/assets/dist/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
-</head>
+<?php
+include '../config/head.php';
+?>
 
 <body>
 
 <!-- Mes Informations -->
-    <div class="flex justify-center my-20">
-        <div class="w-4/5 h-56 border-2 border-purple-light rounded-lg">
-            <div class="flex mt-6">
-                <img class="w-24 h-24 mb-3 ml-6 rounded-full shadow-lg" src="" alt="Profil image"/>
-                <div class="border-b-2 border-purple-light shadow-lg py-8 px-8 ml-80">
-                    <h3 class="font-semibold text-4xl ">Mes Informations</h3>
+<div class="flex justify-center my-20 sm">
+    <div class="shadow-md shadow-purple-dark/[.7] w-4/5 h-auto pb-6 border-2 border-purple-light rounded-lg">
+        <div class="flex mt-6">
+            <div class="shadow-md shadow-purple-dark/[.7] py-8 px-8 mx-auto">
+                <h3 class="font-semibold text-4xl">Mes Informations</h3>
+            </div>
+        </div>  
+            <div class="flex flex-row justify-center">
+                <div class="flex flex-row ml-6 w-auto border-b border-gray-200">
+                    <ul class="flex flex-col -mb-px text-sm font-medium text-center mt-10" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                        <li class="mr-2 " role="presentation">
+                            <button class="inline-block w-32 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="false"><img src="assets/image/apprenants.png">Apprenants</button>
+                        </li>
+                        <li class="mr-2" role="presentation">
+                            <button class="inline-block w-32 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="assets/image/publications.png">Publications</button>
+                        </li>
+                    </ul>
                 </div>
-            </div>  
-        </div>
-    </div>
+            </div>
+        </div>    
+    </div> 
 
 <!-- Mes Publications -->
 
 <!-- Mes Favoris -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 </body>
 </html>
