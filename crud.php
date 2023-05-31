@@ -89,15 +89,15 @@
 
 <!-- TABLEAU DE BORD -->
 
-<div class="flex justify-center my-20">
-    <div class="w-4/5 h-auto pb-6 border-2 border-purple-light rounded-lg">
+<div class="flex justify-center my-20 sm">
+    <div class="shadow-md shadow-purple-dark/[.7] w-4/5 h-auto pb-6 border-2 border-purple-light rounded-lg">
         <div class="flex mt-6">
             <div class="shadow-md shadow-purple-dark/[.7] py-8 px-8 mx-auto">
                 <h3 class="font-semibold text-4xl">Tableau de bord</h3>
             </div>
         </div>  
-            <div class="flex flex-row">
-                <div class="flex flex-row ml-6 w-44 border-b border-gray-200">
+            <div class="flex flex-row justify-center">
+                <div class="flex flex-row ml-6 w-auto border-b border-gray-200">
                     <ul class="flex flex-col -mb-px text-sm font-medium text-center mt-10" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                         <li class="mr-2 " role="presentation">
                             <button class="inline-block w-32 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="false"><img src="assets/image/apprenants.png">Apprenants</button>
@@ -108,7 +108,7 @@
                     </ul>
                 </div>
                 <div id="myTabContent">
-                    <div class="text-center hidden p-4 bg-gray-50 mt-10 mx-6" id="apprenants" role="tabpanel" aria-labelledby="apprenants-tab">
+                    <div class="shadow-md shadow-purple-dark/[.7] text-center hidden p-4 bg-gray-50 mt-10 mx-6" id="apprenants" role="tabpanel" aria-labelledby="apprenants-tab">
                         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
                             <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -119,16 +119,16 @@
                     <label for="checkbox-all-search" class="sr-only">checkbox</label>
                 </div>
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Nom
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Prénom
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Avatar
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Nombre de publication
             </th>
             </tr>
@@ -234,7 +234,7 @@
             </table>
                         </div>
                     </div>
-                    <div class="text-center hidden p-4 bg-gray-50 mt-10 mx-6" id="publications" role="tabpanel" aria-labelledby="publications-tab">
+                    <div class="shadow-md shadow-purple-dark/[.7] text-center hidden p-4 bg-gray-50 mt-10 mx-6" id="publications" role="tabpanel" aria-labelledby="publications-tab">
                         <table class="w-full text-sm text-left text-gray-500">
             <thead class="text-xs text-gray-700 uppercase bg-gray-50">
             <tr>
@@ -244,16 +244,16 @@
                     <label for="checkbox-all-search" class="sr-only">checkbox</label>
                 </div>
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Titre
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Publié par
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Code
             </th>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" class="w-44 px-6 py-3">
                 Nombre de vue
             </th>
             </tr>
