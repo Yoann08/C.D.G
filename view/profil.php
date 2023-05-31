@@ -16,10 +16,13 @@ include '../config/head.php';
                 <div class="flex flex-row ml-6 w-auto border-b border-gray-200">
                     <ul class="flex flex-col -mb-px text-sm font-medium text-center mt-10" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                         <li class="mr-2 " role="presentation">
-                            <button class="inline-block w-32 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="false"><img src="assets/image/apprenants.png">Apprenants</button>
+                            <button class="inline-block w-44 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="false"><img src="../assets/img/apprenants.png">Mes informations</button>
                         </li>
                         <li class="mr-2" role="presentation">
-                            <button class="inline-block w-32 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="assets/image/publications.png">Publications</button>
+                            <button class="inline-block w-44 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="../assets/img/publications.png">Mes Publications</button>
+                        </li>
+                        <li class="mr-2" role="presentation">
+                            <button class="inline-block w-44 px-2 py-2 text-white bg-purple-light border border-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="../assets/img/favoris.png">Mes Favoris</button>
                         </li>
                     </ul>
                 </div>
