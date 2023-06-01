@@ -133,13 +133,13 @@
 <div class="py-16 shadow-md shadow-purple-dark/[.7]">
     <div class="flex flex-row justify-between mr-40 ml-32">
         <img class="w-28" src="assets/image/html.png" />
-        <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
+        <button type="submit" class="w-30 h-auto sm:h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex justify-between mx-40">
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -150,11 +150,11 @@
         <img class="w-28" src="assets/image/css.png" />
         <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex justify-between mx-40">
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -165,11 +165,11 @@
         <img class="w-28" src="assets/image/js.png" />
         <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex justify-between mx-40">
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -179,11 +179,11 @@
         <img class="w-28" src="assets/image/php.png" />
         <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex justify-between mx-40">
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 <!-- ---------------FOOTER--------------- -->
