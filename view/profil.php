@@ -9,7 +9,7 @@ include '../config/head.php';
     <div class="shadow-md shadow-purple-dark/[.7] w-4/5 pb-6 border-2 border-purple-light rounded-lg">
         <div class="flex mt-6">
             <img class="w-24 h-24 mb-3 rounded-full shadow-lg mt-10 ml-20" src="../assets/img/codesdegeek.png" alt="Avatar de profil"/>
-            <div class="shadow-md shadow-purple-dark/[.7] py-8 px-8 mx-auto">
+            <div class="shadow-md shadow-purple-dark/[.7] h-20 px-6 mt-10 mx-auto">
                 <h3 class="font-semibold text-4xl px-14 pt-4">Mon Profil</h3>
             </div>
         </div>  
@@ -27,7 +27,7 @@ include '../config/head.php';
                     </li>
                 </ul>
             </div>
-            <div class="flex mb-16 mt-6" id="myTabContent">
+            <div class="flex mb-16 mt-6" id="myTabContent">  
                 <div class="hidden flex" id="informations" role="tabpanel" aria-labelledby="informations-tab">
                     <div class="ml-24">
                         <label class="block mb-2 text-sm font-medium text-purple-light dark:text-white" for="file_input">Modifier avatar</label>
@@ -42,7 +42,7 @@ include '../config/head.php';
                     </div>
                 </div>
 
-                <!-- mes publications -->
+                <!-- mes publications --> 
                 <div class="hidden flex flex-wrap gap-10 ml-10" id="publications" role="tabpanel" aria-labelledby="publications-tab">
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
                         <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
@@ -83,14 +83,51 @@ include '../config/head.php';
                 </div>
 
                 <!-- Mes Favoris -->
-                
+                <div class="hidden flex flex-wrap gap-10 ml-10" id="favoris" role="tabpanel" aria-labelledby="favoris-tab">
+                    <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
+                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Voir plus
+                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
+                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Voir plus
+                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
+                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <div class="p-5">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
+                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
+                            <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            Voir plus
+                                <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>   
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
+    <!-- <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script> -->
     <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
 </body>
 </html>
