@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7a859a4e2.js" crossorigin="anonymous"></script>    
+    <script src="/content/script.js"></script>
     <script>
         tailwind.config = {
             theme: {
@@ -131,61 +132,72 @@
 <!-- ---------------SECTION HTML--------------- -->
 
 <div class="py-16 shadow-md shadow-purple-dark/[.7]">
-    <div class="flex flex-row justify-between mr-40 ml-32">
+    <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="assets/image/html.png" />
-        <button type="submit" class="w-30 h-auto sm:h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
+        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
 <!-- ---------------SECTION CSS--------------- -->
 
 <div class="bg-purple-dark/[.07] py-16 shadow-md shadow-purple-dark/[.7]">
-    <div class="flex flex-row justify-between mr-40 ml-32">
+    <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="assets/image/css.png" />
-        <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
+        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
 <!-- ---------------SECTION JS--------------- -->
 
 <div class="py-16 shadow-md shadow-purple-dark/[.7]">
-    <div class="flex flex-row justify-between items-center mr-40 ml-32">
+    <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="assets/image/js.png" />
-        <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
+        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
+        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
 <!-- ---------------SECTION PHP--------------- -->
 <div class="bg-purple-dark/[.07] py-16 shadow-md shadow-purple-dark/[.7]">
-    <div class="flex flex-row justify-between items-center mr-40 ml-32">
+    <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="assets/image/php.png" />
-        <button type="submit" class="w-30 h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-5 py-2.5 text-center dark:bg-blue-600 shadow-sm shadow-purple-dark">Voir plus</button>
+        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
     </div>
-    <div class="flex flex-wrap lg:flex-row justify-between mx-40">
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-52 w-40 sm:h-72 sm:w-60 block max-w-sm p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
+
+<!-- ---------------BACK TO TOP--------------- -->
+
+<button id="to-top-button" onclick="goToTop()" title="Go To Top"
+    class="hidden fixed z-50 bottom-10 right-10 p-4 border-0 w-14 h-14 rounded-full shadow-md bg-purple-light hover:bg-purple-700 text-white text-lg font-semibold transition-colors duration-300">
+    <svg src="assets/image/backtotop.png" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+        <path d="M12 4l8 8h-6v8h-4v-8H4l8-8z" />
+    </svg>
+    <span class="sr-only">Go to top</span>
+</button>
+
 <!-- ---------------FOOTER--------------- -->
 
 <?php

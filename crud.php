@@ -11,7 +11,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7a859a4e2.js" crossorigin="anonymous"></script>    
-    <script src="content/script.js"></script>
     <link rel="stylesheet" href="./assets/styles/index.css">
     <script>
         tailwind.config = {
@@ -55,7 +54,7 @@
 
 <!-- ---------------TABLEAU DE BORD--------------- -->
 
-<div id="admin-crud" class="flex justify-center my-20 sm">
+<div id="admin-crud" class="flex justify-center pt-20 pb-32 shadow-md shadow-purple-dark/[.7]">
     <div class="shadow-md shadow-purple-dark/[.7] w-4/5 h-auto pb-6 border-2 border-purple-light rounded-lg">
         <div class="flex mt-6">
             <div class="shadow-md shadow-purple-dark/[.7] py-8 px-8 mx-auto">

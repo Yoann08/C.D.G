@@ -1,23 +1,24 @@
-// create an array of objects with the id, trigger element (eg. button), and the content element
-const tabElements = [
-    {
-        id: 'apprenants',
-        triggerEl: document.querySelector('#apprenants'),
-        targetEl: document.querySelector('#apprenants-tab')
-    },
-    {
-        id: 'publications-tab',
-        triggerEl: document.querySelector('#publications-tab-example'),
-        targetEl: document.querySelector('#publications-example')
-    },
-];
 
-// options with default values
-const options = {
-    defaultTabId: 'apprenants',
-    activeClasses: 'text-red-light hover:text-purple-light border-blue-600',
-    inactiveClasses: 'text-purple-light hover:text-white border-gray-100 hover:border-gray-300',
-    onShow: () => {
-        console.log('tab is shown');
-    }
-};
+    // Get the 'to top' button element by ID
+    var toTopButton = document.getElementById("to-top-button");
+
+    // Check if the button exists
+    if (toTopButton) {
+
+        // On scroll event, toggle button visibility based on scroll position
+        window.onscroll = function() {
+            if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+                toTopButton.classList.remove("hidden");
+            } else {
+                toTopButton.classList.add("hidden");
+            }
+        };
+
+        // Function to scroll to the top of the page smoothly
+        window.goToTop = function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    };
