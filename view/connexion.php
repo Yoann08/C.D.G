@@ -1,5 +1,5 @@
 <?php 
-include '../config/head.php';
+include '../content/head.php';
 ?>
 <body>
 
