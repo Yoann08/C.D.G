@@ -95,7 +95,7 @@
                             <img class="rounded-full w-12 mr-4" src="../../C.D.G/assets/image/2.png" alt="">
                             <div class="flex flex-col">
                                 <h2 class="text-lg text-purple-dark">Richard Mielot</h2>
-                                <p class="text-md text-purple-light">Promo Développeur Web & Web Mobile 2023</p>
+                                <p class="text-sm text-purple-light">Promo Développeur Web & Web Mobile 2023</p>
                             </div>
                         </div>
                         <!-- DESCRIPTION CODE -->
@@ -106,9 +106,9 @@
                 </div>
 
                 <!-- COMMENTAIRES -->
-                <div class="flex flex-col lg:flex-row w-4/5 md:w-4/5 mx-auto mt-5 order-3">
+                <div class="flex flex-col w-4/5 mx-auto lg:w-full mt-5 order-3">
                     <!-- COMMENTAIRE 1 -->
-                    <div id="commOne" class="mb-2 flex flex-col items-end md:w-4/5 mx-auto">
+                    <div id="commOne" class="flex flex-col items-end md:w-4/5 mx-auto w">
                         <!-- AVATAR + COMMENTAIRE -->
                         <div class="flex flex-row justify-center">
                             <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
@@ -154,7 +154,7 @@
                         </div>
                     </div>
                     <!-- COMMENTAIRE 2 -->
-                    <div id="commTwo" class="mb-2 md:w-4/5 mx-auto">
+                    <div id="commTwo" class="flex flex-col items-end md:w-4/5 mb-2 mx-auto">
                         <!-- AVATAR + COMMENTAIRE -->
                         <div class="flex flex-row justify-center">
                             <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
@@ -169,7 +169,7 @@
                         </div>
                     </div>
                     <!-- COMMENTAIRE 3 -->
-                    <div id="commThree" class="mb-2 md:w-4/5 mx-auto">
+                    <div id="commThree" class="flex flex-col items-end md:w-4/5 mb-2 mx-auto">
                         <!-- AVATAR + COMMENTAIRE -->
                         <div class="flex flex-row justify-center">
                             <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
@@ -192,7 +192,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         
 
