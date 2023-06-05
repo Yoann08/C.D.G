@@ -1,0 +1,17 @@
+:root {
+    --active-tab: #fbfbfb;
+    --active-tab-bg: #ad53a6;
+    --inactive-tab-bg:#ad53a596 ;
+    --inactive-tab: #fbfbfb
+}
+
+#admin-crud button[aria-selected="true"] {
+    color: var(--active-tab) !important;
+    background-color: var(--active-tab-bg) !important;
+}
+
+#admin-crud button[aria-selected="false"] {
+    color: var(--inactive-tab) !important;
+    background-color: var(--inactive-tab-bg) !important;
+}
+
