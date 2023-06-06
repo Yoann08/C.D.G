@@ -7,11 +7,11 @@
     <div class="gap-2 flex items-center md:order-2">
     <button type="button" class="flex mr-4 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
         <span class="sr-only">Open user menu</span>
-        <img class="w-8 h-8 rounded-full" src="assets/image/crud.png" alt="user photo">
+        <img class="w-8 h-8 rounded-full" src="../../C.D.G/assets/image/crud.png" alt="user photo">
     </button>
     <button type="button" class="flex mr-4 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
         <span class="sr-only">Open user menu</span>
-        <img class="w-8 h-8 rounded-full" src="assets/image/avatar.png" alt="user photo">
+        <img class="w-8 h-8 rounded-full" src="../../C.D.G/assets/image/avatar.png" alt="user photo">
     </button>
     <a href="#" class="px-3 py-2 hover:text-gray-300 text-black">Connexion</a>
     <a href="#" class="px-3 py-2 hover:text-gray-300 text-black">Inscription</a>

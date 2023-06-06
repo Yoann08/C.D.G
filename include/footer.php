@@ -33,9 +33,9 @@
             </div>
             <div class="text-center mt-4 md:mt-0">
                 <div class="font-bold">NOUS CONTACTER</div>
-                <img src="assets/image/courrier.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-4">
+                <img src="../../C.D.G/assets/image/courrier.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-4">
                 <div class="mt-2">cdg@simplon.fr</div>
-                <img src="assets/image/phone.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-2">
+                <img src="../../C.D.G/assets/image/phone.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-2">
                 <div class="mt-2">03.24.01.23.45</div>
             </div>
         </div>
