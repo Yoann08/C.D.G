@@ -1,8 +1,12 @@
 <?php
-include '../content/head.php';
+    include '../../C.D.G/include/head.php';
 ?>
 
 <body>
+
+<?php
+    include '../../C.D.G/include/navbar.php';
+?>
 
 <!-- Mes Informations -->
 <div id="profil" class="flex justify-center my-20 sm">
@@ -45,7 +49,7 @@ include '../content/head.php';
                     </div>
                 </div>
 
-                <!-- mes publications --> 
+                <!-- Mes publications --> 
                 <div class="hidden flex flex-wrap gap-10 ml-10" id="publications" role="tabpanel" aria-labelledby="publications-tab">
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
                         <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
@@ -139,10 +143,11 @@ include '../content/head.php';
             </div>
         </div>
     </div>
-</div>   
+</div> 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <!-- <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<?php
+    include '../../C.D.G/include/footer.php';
+?>
+
 </body>
 </html>

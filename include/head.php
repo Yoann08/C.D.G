@@ -23,11 +23,10 @@
 
     <!-- JAVASCRIPT   -->
     <script src="../../C.D.G/assets/js/script.js"></script>
-    <script src="../../C.D.G/assets/js/tiny.js"></script>
 
     <!-- TINY MCE -->
     <script src="https://cdn.tiny.cloud/1/wcm7yyvazr4l2qtnt0k53efapz7i9qcsqurynkpwn1f66enm/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-
+    <script src="../../C.D.G/assets/js/tiny.js"></script>
 
     <!-- CSS -->
     <link rel="stylesheet" href="../../C.D.G/assets/style/style.css">
