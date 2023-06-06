@@ -55,13 +55,13 @@
 <div class="py-16 shadow-md shadow-purple-dark/[.7]">
     <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="../../C.D.G/assets/image/html.png" />
-        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
+        <a href="produits.php" type="submit" class="btn flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</a>
     </div>
     <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -70,13 +70,13 @@
 <div class="bg-purple-dark/[.07] py-16 shadow-md shadow-purple-dark/[.7]">
     <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="../../C.D.G/assets/image/css.png" />
-        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
+        <a href="produits.php" type="submit" class="btn flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</a>
     </div>
     <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -85,13 +85,13 @@
 <div class="py-16 shadow-md shadow-purple-dark/[.7]">
     <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="../../C.D.G/assets/image/js.png" />
-        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
+        <a href="produits.php" type="submit" class="btn flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</a>
     </div>
     <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
-        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-        <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+        <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
@@ -99,13 +99,13 @@
 <div class="bg-purple-dark/[.07] py-16 shadow-md shadow-purple-dark/[.7]">
     <div class="flex flex-row justify-between mr-8 sm:mr-20 sm:ml-14 md:mr-32 md:ml-24">
         <img class="w-28" src="../../C.D.G/assets/image/php.png" />
-        <button type="submit" class="flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</button>
+        <a href="produits.php" type="submit" class="btn flex justify-around w-auto h-10 text-purple-light uppercase border-2 font-medium rounded-2xl text-sm px-2 py-2 text-center shadow-sm shadow-purple-dark">Voir plus</a>
     </div>
     <div class="flex flex-wrap justify-center gap-5 md:mx-16 2xl:gap-28">
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
-    <a href="#" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
+    <a href="produit.php" class=" mt-16 h-72 w-60 block p-6 bg-white border border-purple-light border-gray-200 rounded-2xl drop-shadow-md shadow-md shadow-purple-dark/[.7]"></a>
     </div>
 </div>
 
