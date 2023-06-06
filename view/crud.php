@@ -1,55 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a7a859a4e2.js" crossorigin="anonymous"></script>    
-    <link rel="stylesheet" href="./assets/styles/index.css">
-    <script>
-        tailwind.config = {
-            theme: {
-                colors: 
-                {
-                    'purple-dark': '#4f2779',
-                    'purple-light': '#ad53a6',
-                    'black': '#000d32',
-                    'yellow': '#ffd700',
-                    'cyan': '#58ffd3',
-                    'background': '#fbfbfb',
-                },
-                fontFamily: 
-                {
-                    'roboto': ['Roboto', 'sans-serif'],
-                    'baloo': ['Baloo 2', 'cursive'],
-                },
-                extend: 
-                {
-                    borderRadius: 
-                    {
-                        'card-radius': '1.25rem',
-                        'button-radius': '3.125rem',
-                    }
-                },
-            },
-            plugins: [],
-        } 
-    </script>
-
-    <title>Codes De Geek</title>
-</head>
-
+<?php
+include '../../C.D.G/include/head.php';
+?>
 <body>
 <!-- ---------------NAVBAR--------------- -->
 
 <?php
-    include 'content/include/navbar.php';
+include '../../C.D.G/include/navbar.php';
 ?>
 
 <!-- ---------------TABLEAU DE BORD--------------- -->
@@ -65,10 +21,10 @@
                 <div class="flex flex-row ml-6 w-auto">
                     <ul class="flex flex-col -mb-px text-sm font-medium text-center mt-10" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                         <li class="mr-2 " role="presentation">
-                            <button class="hover:text-white text-white inline-block w-32 px-2 py-2 bg-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="true"><img src="assets/image/apprenants.png">Apprenants</button>
+                            <button class="hover:text-white text-white inline-block w-32 px-2 py-2 bg-purple-light flex items-center justify-between" id="apprenants-tab" data-tabs-target="#apprenants" type="button" role="tab" aria-controls="apprenants" aria-selected="true"><img src="../../C.D.G/assets/image/apprenants.png">Apprenants</button>
                         </li>
                         <li class="mr-2" role="presentation">
-                            <button class="hover:text-white text-white inline-block w-32 px-2 py-2  bg-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="assets/image/publications.png">Publications</button>
+                            <button class="hover:text-white text-white inline-block w-32 px-2 py-2  bg-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="../../C.D.G/assets/image/publications.png">Publications</button>
                         </li>
                     </ul>
                 </div>
@@ -122,8 +78,8 @@
                                             15
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -146,8 +102,8 @@
                                             6
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -170,8 +126,8 @@
                                             36
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -194,8 +150,8 @@
                                             25
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -251,8 +207,8 @@
                                             15
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -275,8 +231,8 @@
                                             6
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -299,8 +255,8 @@
                                             36
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                         </tr>
                                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -323,8 +279,8 @@
                                             25
                                         </td>
                                         <td class="flex items-center px-6 py-4 space-x-3">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="assets/image/edit.png" alt="Edit"></a>
-                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="assets/image/delete.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline"><img src="../../C.D.G/assets/image/edit.png" alt="Edit"></a>
+                                            <a href="#" class="font-medium text-red-600 dark:text-red-500 hover:underline"><img src="../../C.D.G/assets/image/delete.png" alt="Edit"></a>
                                         </td>
                                     </tr>
                                 </tbody>
@@ -338,7 +294,7 @@
 <!-- ---------------FOOTER--------------- -->
 
 <?php
-    include 'content/include/footer.php';
+include '../../C.D.G/include/footer.php';
 ?>
 
     <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>
