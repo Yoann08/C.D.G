@@ -1,7 +1,10 @@
 <?php 
-include '../content/head.php';
+include '../../C.D.G/include/head.php';
 ?>
 <body>
+<?php
+include '../../C.D.G/include/navbar.php';
+?>
 
 <div class="flex justify-evenly my-20">
     <!-- Formulaire de Connexion -->
@@ -53,6 +56,10 @@ include '../content/head.php';
         </form>
     </div>
 </div>
+
+<?php
+include '../../C.D.G/include/footer.php';
+?>
 
 </body>
 </html>
