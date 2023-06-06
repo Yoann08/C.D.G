@@ -33,12 +33,14 @@
             </div>
             <div class="text-center mt-4 md:mt-0">
                 <div class="font-bold">NOUS CONTACTER</div>
-                <img src="assets/image/courrier.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-4">
+                <img src="../../C.D.G/assets/image/courrier.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-4">
                 <div class="mt-2">cdg@simplon.fr</div>
-                <img src="assets/image/phone.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-2">
+                <img src="../../C.D.G/assets/image/phone.png" alt="Logo" class="h-4 hidden md:block mx-auto mt-2">
                 <div class="mt-2">03.24.01.23.45</div>
             </div>
         </div>
     </div>
     <div class="text-center mt-4 text-sm">&copy; 2023 CODES DE GEEK. Tous droits réservés.</div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>

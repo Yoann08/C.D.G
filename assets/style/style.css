@@ -5,6 +5,7 @@
     --inactive-tab: #fbfbfb
 }
 
+/* PAGE ADMIN  */
 #admin-crud button[aria-selected="true"] {
     color: var(--active-tab) !important;
     background-color: var(--active-tab-bg) !important;
@@ -14,6 +15,8 @@
     color: var(--inactive-tab) !important;
     background-color: var(--inactive-tab-bg) !important;
 }
+
+/* PAGE PROFIL */
 #profil button[aria-selected="false"] {
     color: var(--inactive-tab) !important;
     background-color: var(--inactive-tab-bg) !important;

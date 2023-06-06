@@ -1,14 +1,18 @@
 <?php
-include '../content/head.php';
+    include '../../C.D.G/include/head.php';
 ?>
 
 <body>
+
+<?php
+    include '../../C.D.G/include/navbar.php';
+?>
 
 <!-- Mes Informations -->
 <div id="profil" class="flex justify-center my-20 sm">
     <div class="shadow-md shadow-purple-dark/[.7] w-4/5 pb-6 border-2 border-purple-light rounded-lg">
         <div class="flex mt-6">
-            <img class="w-24 h-24 mb-3 rounded-full shadow-lg mt-10 ml-20" src="../assets/img/avatar.png" alt="Avatar de profil"/>
+            <img class="w-24 h-24 mb-3 rounded-full shadow-lg mt-10 ml-20" src="../../C.D.G/assets/image/avatar.png" alt="Avatar de profil"/>
             <div class="shadow-md shadow-purple-dark/[.7] h-20 px-6 mt-10 mx-auto">
                 <h3 class="font-semibold text-4xl px-14 pt-4">Mon Profil</h3>
             </div>
@@ -17,13 +21,13 @@ include '../content/head.php';
             <div class="flex flex-row ml-6 w-auto">
                 <ul class="flex flex-col -mb-px text-sm font-medium text-center mt-10" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
                     <li class="mr-2 " role="presentation">
-                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="informations-tab" data-tabs-target="#informations" type="button" role="tab" aria-controls="informations" aria-selected="true"><img src="../assets/img/apprenants.png">Mes informations</button>
+                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="informations-tab" data-tabs-target="#informations" type="button" role="tab" aria-controls="informations" aria-selected="true"><img src="../../C.D.G/assets/image/apprenants.png">Mes informations</button>
                     </li>
                     <li class="mr-2" role="presentation">
-                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="../assets/img/publications.png">Mes Publications</button>
+                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="publications-tab" data-tabs-target="#publications" type="button" role="tab" aria-controls="publications" aria-selected="false"><img src="../../C.D.G/assets/image/publications.png">Mes Publications</button>
                     </li>
                     <li class="mr-2" role="presentation">
-                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="favoris-tab" data-tabs-target="#favoris" type="button" role="tab" aria-controls="favoris" aria-selected="false"><img src="../assets/img/favoris.png">Mes Favoris</button>
+                        <button class="inline-block w-44 px-2 py-2 hover:text-white text-white bg-purple-light flex items-center justify-between" id="favoris-tab" data-tabs-target="#favoris" type="button" role="tab" aria-controls="favoris" aria-selected="false"><img src="../../C.D.G/assets/image/favoris.png">Mes Favoris</button>
                     </li>
                     <div class="mt-7">
                         <button class="w-28 h-auto xs:h-12 text-purple-light uppercase border-2 font-medium rounded-2xl text-xs px-2 py-2 text-center shadow-sm shadow-purple-dark">Ajouter un nouveau code</button>
@@ -45,10 +49,10 @@ include '../content/head.php';
                     </div>
                 </div>
 
-                <!-- mes publications --> 
+                <!-- Mes publications --> 
                 <div class="hidden flex flex-wrap gap-10 ml-10" id="publications" role="tabpanel" aria-labelledby="publications-tab">
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
@@ -60,7 +64,7 @@ include '../content/head.php';
                         </div>
                     </div>
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
@@ -72,7 +76,7 @@ include '../content/head.php';
                         </div>
                     </div>
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
                             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
@@ -88,11 +92,11 @@ include '../content/head.php';
                 <!-- Mes Favoris -->
                 <div class="hidden flex flex-wrap gap-10 ml-10" id="favoris" role="tabpanel" aria-labelledby="favoris-tab">
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <!-- <div class="flex flex-row justify-between"> -->
                                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
-                                <!-- <img src="../assets/img/fav-code.png" alt="" class="w-10"> -->
+                                <!-- <img src="../../C.D.G/assets/image/fav-code.png" alt="" class="w-10"> -->
                             <!-- </div> -->
                             <p class="mb-5 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
                             <div class="flex flex-row justify-between">
@@ -101,12 +105,12 @@ include '../content/head.php';
                                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <img src="../assets/img/fav-code.png" alt="" class="w-10">
+                                <img src="../../C.D.G/assets/image/fav-code.png" alt="" class="w-10">
                             </div>
                         </div>
                     </div>
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
                             <p class="mb-5 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
@@ -116,12 +120,12 @@ include '../content/head.php';
                                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <img src="../assets/img/fav-code.png" alt="" class="w-10">
+                                <img src="../../C.D.G/assets/image/fav-code.png" alt="" class="w-10">
                             </div>
                         </div>
                     </div>
                     <div class="max-w-xs bg-white border-2 border-purple-light rounded-lg shadow">
-                        <img class="rounded-lg" src="../assets/img/code.jpg" alt="Votre code" />
+                        <img class="rounded-lg" src="../../C.D.G/assets/image/code.jpg" alt="Votre code" />
                         <div class="p-5">
                             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Titre du code</h5>
                             <p class="mb-5 font-normal text-gray-700 dark:text-gray-400">Ici la description du code.</p>
@@ -131,7 +135,7 @@ include '../content/head.php';
                                     <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
                                     </svg>
                                 </a>
-                                <img src="../assets/img/fav-code.png" alt="" class="w-10">
+                                <img src="../../C.D.G/assets/image/fav-code.png" alt="" class="w-10">
                             </div>
                         </div>
                     </div>
@@ -139,10 +143,11 @@ include '../content/head.php';
             </div>
         </div>
     </div>
-</div>   
+</div> 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
-    <!-- <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script> -->
-    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<?php
+    include '../../C.D.G/include/footer.php';
+?>
+
 </body>
 </html>
