@@ -1,19 +1,19 @@
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="../../../C.D.G/view/accueil.php" class="flex items-center">
-            <img src="../../../C.D.G/assets/image/logo.png" class="h-14 md:h-20 md:block mr-3" alt="Logo" />
+        <a href="../../C.D.G/view/accueil.php" class="flex items-center">
+            <img src="../../C.D.G/assets/image/logo.png" class="h-14 md:h-20 md:block mr-3" alt="Logo" />
         </a>
         <div class="gap-2 flex items-center lg:order-2">
-            <a type="button" href="../../../C.D.G/view/crud.php" class="flex mr-4 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false">
+            <!-- <a type="button" href="../../C.D.G/view/crud.php" class="flex mr-4 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false">
                 <img class="w-8 h-8 rounded-full" src="../../../C.D.G/assets/image/crud.png" alt="user photo">
-            </a>
+            </a> -->
             <button type="button" class="flex mr-4 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                 <span class="sr-only">Open user menu</span>
-                <img class="w-8 h-8 rounded-full" src="../../../C.D.G/assets/image/avatar.png" alt="user photo">
+                <img class="w-8 h-8 rounded-full" src="../../C.D.G/assets/image/avatar.png" alt="user photo">
             </button>
-            <a href="#" class="px-1 py-2 hover:text-gray-300 text-black">Connexion</a>
-            <a href="#" class="px-1 py-2 hover:text-gray-300 text-black">Inscription</a>
+            <!-- <a href="../../C.D.G/view/connexion.php" class="px-1 py-2 hover:text-gray-300 text-black">Connexion / Inscription</a> -->
+            <!-- <a href="#" class="px-1 py-2 hover:text-gray-300 text-black">Inscription</a> -->
         </div>
       <!-- Dropdown menu -->
         <div>
@@ -21,19 +21,17 @@
                 <div class="px-4 py-3">
                 <span class="block text-sm text-gray-900 dark:text-white">Stéphane Jullion</span>
                 <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                <a href="../../C.D.G/view/connexion.php" class="block text-sm text-gray-900 dark:text-white">Connexion / Inscription</a>
                 </div>
                 <ul class="py-2" aria-labelledby="user-menu-button">
                 <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Dashboard</a>
+                    <a href="../../C.D.G/view/crud.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Tableau de bord</a>
                 </li>
                 <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Settings</a>
+                    <a href="../../C.D.G/view/profil.php" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Mon Profil</a>
                 </li>
                 <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Earnings</a>
-                </li>
-                <li>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Sign out</a>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">Deconnexion</a>
                 </li>
                 </ul>
             </div>
