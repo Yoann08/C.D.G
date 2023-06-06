@@ -1,4 +1,5 @@
  <?php 
+  require_once '../../C.D.G/config/connectBDD.php';
   include '../../C.D.G/include/head.php';
  ?>
 
