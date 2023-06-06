@@ -40,7 +40,7 @@
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
             </button>
         </div>
-        <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+        <div class="mr-52 items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
             <div class="flex items-center max-w-lg mx-auto">
                 <div class="flex items-center">
                     <button class="text-black bg-transparent hover:bg-violet font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center" type="button">HTML</button>                  

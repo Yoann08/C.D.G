@@ -34,7 +34,7 @@ include '../../C.D.G/include/navbar.php';
             <h5 class="text-xl font-medium text-purple-light text-center uppercase">S'enregistrer</h5>
             <div>
                 <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label> -->
-                <input type="name" name="name" id="name" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" placeholder="NOM" required>
+                <input type="firstname" name="firstname" id="firstname" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" placeholder="NOM" required>
             </div>
             <div>
                 <!-- <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label> -->
