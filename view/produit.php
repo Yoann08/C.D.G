@@ -82,121 +82,121 @@
             </div>
 
             <!-- CODE + DESCRIPTION + COMMENTAIRES-->
-            <div>
-                <div class="flex flex-col lg:flex-row w-4/5 lg:w-4/5 xl:w-3/4 2xl:w-2/3 gap-y-4 lg:gap-y-0 lg:gap-x-4 mx-auto mb-5">
+            <div class="w-4/5 xl:w-2/3 mx-auto">
+                <!-- CODE + DESCRIPTION -->
+                <div class="flex flex-col lg:flex-row lg:gap-x-4 mb-4">
                     <!-- CODE -->
-                    <div class="mx-auto md:w-4/5 xl:w-2/4 order-2 lg:order-1">
+                    <div class="lg:w-4/5 order-2 lg:order-1">
                         <img class="rounded-lg" src="../../C.D.G/assets/image/5.png" alt="">
                     </div>
                     <!-- DESCRIPTION -->
-                    <div class="mx-auto md:w-4/5 xl:w-96 order-1 lg:order-2 border-2 border-purple-light rounded-lg p-4">
+                    <div class="lg:w-4/5 border-2 border-purple-light rounded-lg p-4 order-1 mb-4 lg:mb-0">
                         <!-- AVATAR + UTILISATEUR -->
-                        <div class="flex flex-row justify-start items-center mb-4">
+                        <div class="flex flex-row mb-2">
                             <img class="rounded-full w-12 mr-4" src="../../C.D.G/assets/image/2.png" alt="">
-                            <div class="flex flex-col">
-                                <h2 class="text-lg text-purple-dark">Richard Mielot</h2>
-                                <p class="text-sm text-purple-light">Promo Développeur Web & Web Mobile 2023</p>
+                            <div class="">
+                                <h2 class="font-bold text-xl text-purple-dark">Richard Mielot</h2>
+                                <p class="font-light text-purple-dark">Promo Développeur Web & Web Mobile 2023</p>
                             </div>
                         </div>
                         <!-- DESCRIPTION CODE -->
-                        <div class="max-h-4/5">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni consectetur asperiores numquam et pariatur voluptate? Pariatur, provident. Totam officiis, dolore voluptatem quasi incidunt commodi consequatur quam sequi pariatur libero ab, magnam accusantium praesentium amet delectus veritatis ullam unde adipisci porro quis. Rem, enim. Aliquid ab fugit sint expedita quisquam, magnam cumque praesentium provident ipsum corrupti officiis architecto est voluptatem fugiat optio, temporibus ad tempore minima! Sit adipisci repudiandae dolorem ad sapiente, natus corrupti. Veniam, vel.</p>
+                        <div class="indent-16 text-justify">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse debitis laborum aspernatur! Quidem voluptates iure itaque eum possimus dolorum unde quia aliquid veniam vero magnam temporibus, nemo adipisci, aliquam explicabo at aut. Sapiente vel pariatur, provident, ex earum esse reiciendis quam fuga molestias tenetur facere facilis ab iste veritatis neque nisi in dolor quia culpa nulla recusandae. Veniam necessitatibus non eius commodi. Expedita alias illum, reprehenderit magni laboriosam unde et culpa rerum iusto, esse consequatur, officia sapiente corrupti aut velit.</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- COMMENTAIRES -->
-                <div class="flex flex-col w-4/5 mx-auto lg:w-full mt-5 order-3">
+                <div class="flex flex-col">
                     <!-- COMMENTAIRE 1 -->
-                    <div id="commOne" class="flex flex-col items-end md:w-4/5 mx-auto w">
+                    <div id="commOne" class="flex flex-col items-end">
                         <!-- AVATAR + COMMENTAIRE -->
-                        <div class="flex flex-row justify-center">
-                            <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
-                            <p class="text-xs border-2 border-purple-light rounded-md p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
+                        <div class="flex flex-row">
+                            <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
+                            <p class="border-2 border-purple-light rounded-lg p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
                         </div>
                         <!-- BOUTON ACTIONS -->
-                        <div class="flex flex-row justify-end mb-2">
-                            <button class="text-xs mr-1">J'aime</button>
-                            <button class="text-xs mr-1">Répondre</button>
-                            <button class="text-xs mr-1">Modifier</button>
-                            <button class="text-xs">Supprimer</button>
+                        <div class="flex justify-end mb-4">
+                            <button class="mr-2">J'aime</button>
+                            <button class="mr-2">Répondre</button>
+                            <button class="mr-2">Modifier</button>
+                            <button>Supprimer</button>
                         </div>
 
                         <!-- REPONSE 1 COMMENTAIRE 1 -->
                         <div id="repOneCommOne" class="w-5/6 flex flex-col items-end">
                             <!-- AVATAR + COMMENTAIRE -->
-                            <div class="flex flex-row justify-center">
-                                <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
-                                <p class="text-xs border-2 border-purple-light rounded-md p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla.</p>
+                            <div class="flex flex-row">
+                                <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
+                                <p class="border-2 border-purple-light rounded-lg p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla.</p>
                             </div>
                             <!-- BOUTON ACTIONS -->
-                            <div class="flex flex-row justify-end mb-2">
-                                <button class="text-xs mr-1">J'aime</button>
-                                <button class="text-xs mr-1">Répondre</button>
-                                <button class="text-xs mr-1">Modifier</button>
-                                <button class="text-xs">Supprimer</button>
+                            <div class="flex justify-end mb-4">
+                                <button class="mr-2">J'aime</button>
+                                <button class="mr-2">Répondre</button>
+                                <button class="mr-2">Modifier</button>
+                                <button>Supprimer</button>
                             </div>
 
                             <!-- REPONSE 1 DE REPONSE 1 COMMENTAIRE 1 -->
-                            <div id="repToRepOneCommOne" class="w-5/6 flex flex-col items-end">
+                            <div id="repToRepOneCommOne" class="w-5/6 flex flex-col items-end"">
                                 <!-- AVATAR + COMMENTAIRE -->
-                                <div class="flex flex-row justify-center">
-                                    <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
-                                    <p class="text-xs border-2 border-purple-light rounded-md p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <div class="flex flex-row">
+                                    <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
+                                    <p class="border-2 border-purple-light rounded-lg p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 </div>
                                 <!-- BOUTON ACTIONS -->
-                                <div class="flex flex-row justify-end">
-                                    <button class="text-xs mr-1">J'aime</button>
-                                    <button class="text-xs mr-1">Modifier</button>
-                                    <button class="text-xs">Supprimer</button>
+                                <div class="flex justify-end mb-4">
+                                    <button class="mr-2">J'aime</button>
+                                    <button class="mr-2">Modifier</button>
+                                    <button>Supprimer</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <!-- COMMENTAIRE 2 -->
-                    <div id="commTwo" class="flex flex-col items-end md:w-4/5 mb-2 mx-auto">
+                    <div id="commTwo" class="flex flex-col items-end">
                         <!-- AVATAR + COMMENTAIRE -->
-                        <div class="flex flex-row justify-center">
-                            <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
-                            <p class="text-xs border-2 border-purple-light rounded-md p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
+                        <div class="flex flex-row">
+                            <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
+                            <p class="border-2 border-purple-light rounded-lg p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
                         </div>
                         <!-- BOUTON ACTIONS -->
-                        <div class="flex flex-row justify-end">
-                            <button class="text-xs mr-1">J'aime</button>
-                            <button class="text-xs mr-1">Répondre</button>
-                            <button class="text-xs mr-1">Modifier</button>
-                            <button class="text-xs">Supprimer</button>
+                        <div class="flex justify-end mb-4">
+                            <button class="mr-2">J'aime</button>
+                            <button class="mr-2">Répondre</button>
+                            <button class="mr-2">Modifier</button>
+                            <button>Supprimer</button>
                         </div>
                     </div>
                     <!-- COMMENTAIRE 3 -->
-                    <div id="commThree" class="flex flex-col items-end md:w-4/5 mb-2 mx-auto">
+                    <div id="commThree" class="flex flex-col items-end">
                         <!-- AVATAR + COMMENTAIRE -->
-                        <div class="flex flex-row justify-center">
-                            <img class="rounded-full w-8 h-8 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
-                            <p class="text-xs border-2 border-purple-light rounded-md p-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
+                        <div class="flex flex-row">
+                            <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
+                            <p class="border-2 border-purple-light rounded-lg p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quos, aspernatur nihil voluptatum maiores fuga nulla. Nemo deleniti provident temporibus.</p>
                         </div>
                         <!-- BOUTON ACTIONS -->
-                        <div class="flex flex-row justify-end">
-                            <button class="text-xs mr-1">J'aime</button>
-                            <button class="text-xs mr-1">Répondre</button>
-                            <button class="text-xs mr-1">Modifier</button>
-                            <button class="text-xs">Supprimer</button>
+                        <div class="flex justify-end mb-4">
+                            <button class="mr-2">J'aime</button>
+                            <button class="mr-2">Répondre</button>
+                            <button class="mr-2">Modifier</button>
+                            <button>Supprimer</button>
                         </div>
                     </div>
-                    <div class="flex flex-col justify-center items-start w-full mx-auto mt-4">
-                        <h3 class="text-md mb-1">Rédiger un commentaire</h3>
-                        <form action="" method="post" class="flex flex-col justify-center items-end w-full">
-                            <textarea name="postComm" id="postComm" class="border-2 border-purple-light rounded-lg w-full"></textarea>
-                            <button class="bg-purple-light text-white text-sm uppercase mt-2 py-1 px-2 rounded-md">Poster</button>
+                    <div>
+                        <h3 class="text-xl text-purple-dark mb-2">Rédiger un commentaire</h3>
+                        <form action="" method="post" class="flex flex-col items-end">
+                            <textarea name="postComm" id="postComm" class="w-full border-2 border-purple-light rounded-lg mb-2"></textarea>
+                            <button class="bg-purple-light rounded-lg px-4 py-2 uppercase text-white">Poster</button>
                         </form>
                     </div>
                 </div>
             </div>
-
-        
+        </div>
 
         <?php include 'include/footer.php'; ?>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
     </body>
 </html>
