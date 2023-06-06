@@ -42,3 +42,4 @@
     </div>
     <div class="text-center mt-4 text-sm">&copy; 2023 CODES DE GEEK. Tous droits réservés.</div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>

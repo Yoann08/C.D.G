@@ -1,79 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+    include '../../C.D.G/include/head.php';
+?>
 
-        <!-- TAILWIND CDN -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-        <script src="/tailwind.config.js"></script>
+<body class="bg-background">
 
-        <!-- FLOWBITE -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet"/>
-
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-        <!-- TAILWIND CONFIG -->
-        <script>
-            tailwind.config = {
-                theme: {
-                    colors: 
-                    {
-                        'purple-dark': '#4f2779',
-                        'purple-light': '#ad53a6',
-                        'black': '#000d32',
-                        'yellow': '#ffd700',
-                        'cyan': '#58ffd3',
-                        'background': '#fbfbfb',
-                    },
-                    fontFamily: 
-                    {
-                        'roboto': ['Roboto', 'sans-serif'],
-                    },
-                    extend: 
-                    {
-                        borderRadius: 
-                        {
-                            'card-radius': '1.25rem',
-                            'button-radius': '3.125rem',
-                        }
-                    },
-                },
-                plugins: [],
-            } 
-        </script>
-
-        <!-- TINY MCE -->
-        <script src="https://cdn.tiny.cloud/1/wcm7yyvazr4l2qtnt0k53efapz7i9qcsqurynkpwn1f66enm/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-        <script>
-            tinymce.init({
-                selector: '#writecode',
-                branding: false,
-                plugins: 'codesample code',
-                codesample_languages: [
-                    { text: 'HTML', value: 'markup' },
-                    { text: 'JavaScript', value: 'javascript' },
-                    { text: 'CSS', value: 'css' },
-                    { text: 'PHP', value: 'php' },
-                ],
-                toolbar: 'codeSample',
-                menubar: false,
-                tabfocus_elements: ':prev,:next',
-            });
-        </script>
-        
-        <!-- TITRE -->
-        <title>Codes De Geek</title>
-    </head>
-
-    <body class="bg-background">
-
-        <?php include 'include/navbar.php'; ?>
+<?php
+    include '../../C.D.G/include/navbar.php';
+?>
 
         <div class="shadow-md shadow-purple-dark/[.7] py-10 mb-5">
             <!-- LOGO LANGAGE -->
@@ -139,7 +72,7 @@
                             </div>
 
                             <!-- REPONSE 1 DE REPONSE 1 COMMENTAIRE 1 -->
-                            <div id="repToRepOneCommOne" class="w-5/6 flex flex-col items-end"">
+                            <div id="repToRepOneCommOne" class="w-5/6 flex flex-col items-end">
                                 <!-- AVATAR + COMMENTAIRE -->
                                 <div class="flex flex-row">
                                     <img class="rounded-full w-12 h-12 mr-2" src="../../C.D.G/assets/image/2.png" alt="">
@@ -195,8 +128,9 @@
             </div>
         </div>
 
-        <?php include 'include/footer.php'; ?>
+<?php
+    include '../../C.D.G/include/footer.php';
+?>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
     </body>
 </html>
