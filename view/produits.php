@@ -1,84 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- TAILWIND CDN -->
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-        <script src="/tailwind.config.js"></script>
-
-        <!-- FLOWBITE -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet"/>
-
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
-        <!-- TAILWIND CONFIG -->
-        <script>
-            tailwind.config = {
-                theme: {
-                    colors: 
-                    {
-                        'purple-dark': '#4f2779',
-                        'purple-light': '#ad53a6',
-                        'black': '#000d32',
-                        'yellow': '#ffd700',
-                        'cyan': '#58ffd3',
-                        'background': '#fbfbfb',
-                    },
-                    fontFamily: 
-                    {
-                        'roboto': ['Roboto', 'sans-serif'],
-                    },
-                    extend: 
-                    {
-                        borderRadius: 
-                        {
-                            'card-radius': '1.25rem',
-                            'button-radius': '3.125rem',
-                        }
-                    },
-                },
-                plugins: [],
-            } 
-        </script>
-
-        <!-- TINY MCE -->
-        <script src="https://cdn.tiny.cloud/1/wcm7yyvazr4l2qtnt0k53efapz7i9qcsqurynkpwn1f66enm/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-        <script>
-            tinymce.init({
-                selector: '#writecode',
-                branding: false,
-                plugins: 'codesample code',
-                codesample_languages: [
-                    { text: 'HTML', value: 'markup' },
-                    { text: 'JavaScript', value: 'javascript' },
-                    { text: 'CSS', value: 'css' },
-                    { text: 'PHP', value: 'php' },
-                ],
-                toolbar: 'codeSample',
-                menubar: false,
-                tabfocus_elements: ':prev,:next',
-            });
-        </script>
-        
-        <!-- TITRE -->
-        <title>Codes De Geek</title>
-    </head>
+<?php
+    include '../../C.D.G/include/head.php';
+?>
 
     <body class="bg-background">
 
-        <?php include 'content/include/navbar.php'; ?>
+<?php
+    include '../../C.D.G/include/navbar.php';
+?>
 
         <div class="shadow-md shadow-purple-dark/[.7] py-10 mb-5">
             <!-- LOGO LANGAGE + BOUTON -->
             <div class="flex flex-row justify-around mb-10">
-                <img class="w-28" src="assets/image/html.png" alt="">
+                <img class="w-28" src="../../C.D.G/assets/image/html.png" alt="">
                 <div class="flex flex-row items-center">
                     <button class="px-4 py-2.5 text-center inline-flex items-center" id="dropdown" data-dropdown-toggle="dropdownFiltre" type="button">
                         <img class="w-8" src="img/filtre.png" alt="">
@@ -146,44 +79,44 @@
             <div class="flex flex-col md:grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 md:gap-x-4 lg:gap-y-6 2xl:gap-x-6 w-4/5 mx-auto">
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/2.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/2.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/3.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/3.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/4.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/4.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/5.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/5.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/3.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/3.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/4.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/4.png" alt=""/>
                     </a>
                 </div>
                 <div class="flex justify-center">
                     <a href="content/produit.php">
-                        <img class="w-80 h-96 rounded-lg mb-4" src="assets/image/2.png" alt=""/>
+                        <img class="w-80 h-96 rounded-lg mb-4" src="../../C.D.G/assets/image/2.png" alt=""/>
                     </a>
                 </div>
             </div>
         </div>
 
-        <?php include 'content/include/footer.php'; ?>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+<?php
+    include '../../C.D.G/include/footer.php';
+?>
     </body>
 </html>
