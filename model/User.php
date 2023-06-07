@@ -3,12 +3,22 @@ require_once '../../C.D.G/config/connectBDD.php';
 
 class User
 {
-    public int $id;
-    public string $nom;
-    public string $prenom;
-    public string $email;
-    public string $mdp;
-    public int $id_roles;
+    private int $id;
+    private string $nom;
+    private string $prenom;
+    private string $email;
+    private string $mdp;
+    private int $id_roles;
+
+    public function __construct($nom, $prenom, $email, $mdp, $id_roles = 0, $id = 0) 
+    {
+        $this->nom = $nom;
+        $this->prenom = $prenom;
+        $this->email = $email;
+        $this->mdp = $mdp;
+        $this->id_roles = $id_roles;
+        $this->id = $id;
+    }
 
     public function createToSignin(array $userForm):bool
     {
@@ -24,7 +34,7 @@ class User
         {
             return false;
         }
-        if(isset($userForm['mdp']) OR ($userForm['mdp']) && $userForm['conf_mdp'] == $userForm['mdp'])
+        if(!isset($userForm['mdp']) OR ($userForm['mdp']) && $userForm['conf_mdp'] == $userForm['mdp'])
         {
             $this->mdp = $userForm['mdp'];
         }
@@ -39,29 +49,68 @@ class User
 
         return true;
     }
+
+    public function getNom() : string 
+    {
+        return $this->nom;
+    }
+
+    public function setNom($nom)
+    {
+        $this->nom = $nom;
+    }
+
+    public function getPrenom() : string 
+    {
+        return $this->prenom;
+    }
+
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
+    public function getEmail() : string 
+    {
+        return $this->email;
+    }
+
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    public function getMdp() : string
+    {
+        return $this->mdp;
+    } 
+
+    public function getIdRoles() : int
+    {
+       return $this->id_roles;
+    }
+
+    public function getId() : int
+    {
+       return $this->id; 
+    }
 }
 
-class UserRepository extends connectBDD
+class UserRepository extends ConnectBDD
 {
-    public function __construct()
+    public function __construct($servername, $username, $password, $dbname)
     {
-        parent::__construct();
+        parent::__construct($servername, $username, $password, $dbname);
     }
 
     public function getUserByEmail($email)
     {
-        $req = $this->conn->prepare('SELECT * FROM utilisateurs WHERE email = ?');
+        $req = $this->conn->prepare('SELECT * FROM utilisateurs WHERE email_utilisateurs = ?');
         $req->execute([$email]);
         $data = $req->fetch();
         if($data != false)
         {
-            $user = new User();
-            $user->id = $data['id_utilisateurs'];
-            $user->nom = $data['nom_utilisateurs'];
-            $user->prenom = $data['prenom_utilisateurs'];
-            $user->email = $data['email_utilisateurs'];
-            $user->mdp = $data['mdp_utilisateurs'];
-            $user->id_roles = $data['id_roles'];
+            $user = new User($data['nom_utilisateurs'], $data['prenom_utilisateurs'], $data['email_utilisateurs'], $data['mdp_utilisateurs'], $data['id_utilisateurs']);
 
             return $user;
         }
@@ -75,10 +124,10 @@ class UserRepository extends connectBDD
     {
         $req = $this->conn->prepare("INSERT INTO utilisateurs SET nom_utilisateurs = ?, prenom_utilisateurs = ?, email_utilisateurs = ?, mdp_utilisateurs = ?, id_role = ?");
         $req->execute([
-            $user->nom,
-            $user->prenom,
-            $user->email,
-            $user->mdp,
+            $user->getNom(),
+            $user->getPrenom(),
+            $user->getEmail(),
+            $user->getMdp(),
             2
         ]);
     } 
