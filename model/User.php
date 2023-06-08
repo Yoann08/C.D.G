@@ -1,5 +1,5 @@
 <?php
-require_once '../../C.D.G/config/connectBDD.php';
+require_once '../C.D.G/config/connectBDD.php';
 
 class User
 {

@@ -1,17 +1,14 @@
  <?php 
-  // require_once '../../C.D.G/config/connectBDD.php';
-  include '../../C.D.G/include/head.php';
+  include 'include/head.php';
  ?>
 
 <body>
 <!-- ---------------NAVBAR--------------- -->
-
 <?php
-    include '../../C.D.G/include/navbar.php';
+    include 'include/navbar.php';
 ?>
 
 <!-- ---------------CAROUSEL--------------- -->
-
 <body>
   <swiper-container class="mySwiper" pagination="true" effect="coverflow" grab-cursor="true" centered-slides="true"
     slides-per-view="auto" coverflow-effect-rotate="50" coverflow-effect-stretch="0" coverflow-effect-depth="100"
@@ -123,7 +120,7 @@
 <!-- ---------------FOOTER--------------- -->
 
 <?php
-    include '../../C.D.G/include/footer.php';
+    include 'include/footer.php';
 ?>
 
     <script src="https://unpkg.com/@themesberg/flowbite@latest/dist/flowbite.bundle.js"></script>

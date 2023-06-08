@@ -21,7 +21,7 @@ class ConnectBDD {
             $this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
             // Configuration supplémentaire pour afficher les erreurs PDO
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Connexion à la base de données réussie!";
+            // echo "Connexion à la base de données réussie!";
         } catch(PDOException $e) {
             echo "Erreur de connexion à la base de données: " . $e->getMessage();
         }
