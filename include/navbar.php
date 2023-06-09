@@ -1,7 +1,7 @@
 
 <nav class="bg-white border-gray-200 dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="../../C.D.G/view/accueil.php" class="flex items-center">
+        <a href="../../C.D.G/?action=index.php" class="flex items-center">
             <img src="../../C.D.G/assets/image/logo.png" class="h-14 md:h-20 md:block mr-3" alt="Logo" />
         </a>
         <div class="gap-2 flex items-center lg:order-2">
@@ -19,8 +19,8 @@
         <div>
             <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
                 <div class="px-4 py-3">
-                <span class="block text-sm text-gray-900 dark:text-white">Stéphane Jullion</span>
-                <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+                <!-- <span class="block text-sm text-gray-900 dark:text-white">Stéphane Jullion</span>
+                <span class="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span> -->
                 <a href="../../C.D.G/view/connexion.php" class="block text-sm text-gray-900 dark:text-white">Connexion / Inscription</a>
                 </div>
                 <ul class="py-2" aria-labelledby="user-menu-button">

@@ -4,31 +4,36 @@ class ConnectBDD {
     private $username;
     private $password;
     private $dbname;
-    private $conn;
+    public $conn;
 
-    public function __construct($servername, $username, $password, $dbname) {
+    public function __construct($servername, $username, $password, $dbname)
+    {
         $this->servername = $servername;
         $this->username = $username;
         $this->password = $password;
         $this->dbname = $dbname;
     }
 
-    public function connect() {
-        try {
+    public function connect() 
+    {
+        try 
+        {
             $this->conn = new PDO("mysql:host=$this->servername;dbname=$this->dbname", $this->username, $this->password);
             // Configuration supplémentaire pour afficher les erreurs PDO
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            echo "Connexion à la base de données réussie!";
+            // echo "Connexion à la base de données réussie!";
         } catch(PDOException $e) {
             echo "Erreur de connexion à la base de données: " . $e->getMessage();
         }
     }
 
-    public function getConnection() {
+    public function getConnection() 
+    {
         return $this->conn;
     }
 
-    public function closeConnection() {
+    public function closeConnection() 
+    {
         $this->conn = null;
     }
 }

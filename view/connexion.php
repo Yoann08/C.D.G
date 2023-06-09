@@ -30,15 +30,15 @@ include '../../C.D.G/include/navbar.php';
 
     <!-- formulaire d'inscription -->
     <div class="w-full max-w-sm p-4 bg-white border-2 border-purple-light rounded-card-radius shadow-2xl sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <form class="space-y-6" method="POST" action="#">
+        <form class="space-y-6" method="POST" action="?action=formulaire">
             <h5 class="text-xl font-medium text-purple-light text-center uppercase">S'enregistrer</h5>
             <div>
                 <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label> -->
-                <input type="firstname" name="firstname" id="firstname" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" placeholder="NOM" required>
+                <input type="text" name="nom" id="nom" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" placeholder="NOM" required>
             </div>
             <div>
                 <!-- <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label> -->
-                <input type="lastname" name="lastname" id="lastname" placeholder="PRENOM" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
+                <input type="text" name="prenom" id="prenom" placeholder="PRENOM" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
             </div>
             <div>
                 <!-- <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label> -->
@@ -46,11 +46,11 @@ include '../../C.D.G/include/navbar.php';
             </div>
             <div>
                 <!-- <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label> -->
-                <input type="password" name="password" id="password" placeholder="MOT DE PASSE" class=" border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
+                <input type="password" name="mdp" id="mdp" placeholder="MOT DE PASSE" class=" border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
             </div>
             <div>
                 <!-- <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Mot de passe</label> -->
-                <input type="confirm-password" name="confirm-password" id="confirm-password" placeholder="CONFIRMER MOT DE PASSE" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
+                <input type="password" name="conf_mdp" id="conf_mdp" placeholder="CONFIRMER MOT DE PASSE" class="border-2 border-purple-light text-purple-light text-sm rounded-lg block w-full p-2.5 placeholder-purple-light" required>
             </div>
             <button type="submit" class="w-full text-purple-light uppercase border-2 font-medium rounded-2xl shadow-md shadow-purple-dark text-sm px-5 py-2.5 text-center dark:bg-blue-600">S'enregistrer</button>
         </form>
