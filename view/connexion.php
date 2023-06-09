@@ -30,7 +30,7 @@ include '../../C.D.G/include/navbar.php';
 
     <!-- formulaire d'inscription -->
     <div class="w-full max-w-sm p-4 bg-white border-2 border-purple-light rounded-card-radius shadow-2xl sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">
-        <form class="space-y-6" method="POST" action="../../C.D.G/model/User.php">
+        <form class="space-y-6" method="POST" action="?action=formulaire">
             <h5 class="text-xl font-medium text-purple-light text-center uppercase">S'enregistrer</h5>
             <div>
                 <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label> -->

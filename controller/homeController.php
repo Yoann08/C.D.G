@@ -6,4 +6,4 @@ function Accueil()
     include('view/accueil.php');
 }
 
-?>
+ ?>
